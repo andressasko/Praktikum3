@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<title>Praktikum 03 - selektorite ülesanne</title>
+	<style type="text/css">
+	/*  SIIN KIRJELDADA SELEKTORID NING ELEMENDIS NÕUTUD STIIL */
+	p {
+		color:red;
+	}
+	div {
+		width: 300px;
+		text-align: center;
+	}
+	ul{
+		width: 80%;
+		background-color: #c0c0c0;
+		list-style: none;
+		
+		}
+	
+	div p{
+		background-color: grey;
+	
+}
+	#keha{
+		background-color: #c0c0c0;
+		}
+	#pea{
+		width: 10%;
+		padding: 5px;
+		position: relative;
+        left: 105px;
+		font-size: 30px;
+		background-color: #c0c0c0;
+		}
+	span.jalg{
+		background-color: grey;
+		color: white;
+		}
+	</style>
+</head>
+
+<!--
+1. Linking to a separate CSS file
+With this method all of your style rules are contained in a single text file that is saved with the .CSS extension.
+This file is saved on your server and you link to it directly from each HTML file. The link is just a simple line of HTML that you put in the <head> section of your HTML document
+
+2. Embedding CSS into the HTML
+You can also embed CSS rules directly into any HTML page. To do this you need to add the following code to the <head> of your HTML document:
+
+<style media="screen" type="text/css">
+Add style rules here
+</style>
+
+3. Adding Inline CSS to HTML tags
+Style rules can also be added directly to any HTML element. 
+To do this you simply add a style parameter to the element and enter your style rules as the value.
+
+4. Importing a CSS file from within CSS
+Another interesting way to add CSS to a HTML page is with the import rule. This lets us attach a new CSS file from within CSS itself.
+To import a new CSS file from within CSS simply use the following rule: @import "newstyles.css";
+Just change "newstyles" to the name of your CSS file and be sure to include the correct path to the file too. 
+
+The media attribute specifies what media/device the target resource is optimized for.
+This attribute is mostly used with CSS stylesheets to specify different styles for different media types.
+The media attribute can accept several values.
+
+all Default. Suitable for all devices 
+aural Speech synthesizers 
+braille Braille feedback devices 
+handheld Handheld devices (small screen, limited bandwidth) 
+projection Projectors 
+print Print preview mode/printed pages 
+screen Computer screens 
+tty Teletypes and similar media using a fixed-pitch character grid 
+tv Television type devices (low resolution, limited scroll ability) 
+
+The list-style-type specifies the type of list-item marker in a list.
+
+Style the element with id="firstname":
+#firstname { 
+     background-color: yellow;
+ } 
+The #id selector styles the element with the specified id.
+
+-->
+
+<body>
+	<h2>CSS-bot</h2>
+
+
+	<div id="pea">
+		<span>ˇO_oˇ</span>
+	</div>
+	<div id="keha">
+		<ul>
+			<li><p>...</p></li>
+			<li><p>...</p></li>
+			<li><p>...</p></li>
+			<li><p>...</p></li>
+			<li><p>...</p></li>
+		</ul>
+	</div>
+	<div>
+		<p>&nbsp;</p>
+		<span class="jalg">OOOOOOOO</span> <span class="jalg">OOOOOOOO</span>
+	</div>
+	
+	<p>
+	 <a href="http://validator.w3.org/check?uri=referer">Validator here also
+	 </a>
+	</p>	
+	
+</body>
+</html>
